@@ -9,4 +9,10 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+{
+  "linux-cultist/venv-selector.nvim",
+  opts = {
+    fd_binary_name = "fdfind",
+  },
+},
 }
